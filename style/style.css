@@ -13,6 +13,61 @@ body{
     font-family: "Lato", sans-serif;
 }
 
+.navbar .logonb{
+    display: flex;
+    position: absolute;
+    margin: 30px 0 0 275px;
+    padding: 0;
+}
+
+.navbar{
+    width: 1920px;
+    height: 85px;
+    display: inline;
+    font-size: 20px;
+        
+    }
+
+.navbar ul{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 425px;
+    margin-top: 0px;
+}
+
+.navbar ul li a{
+    display: inline;
+    text-decoration: none;
+    margin-left: 70px;
+    color: #292929;
+    
+}
+
+.sign{
+    display: inline-flex;
+    margin-left: 270px;
+    font-size: 20px;
+}
+
+.sign a{
+    color: #292929;
+
+}
+
+.buttonup{
+    width: 183px;
+    height: 51px;
+    color: #fff;
+    background-color: #01996D;
+    border: none;
+    border-radius: 4px;
+    margin: 17px 0 17px 35px;
+    font-size: 20px;
+
+    cursor: pointer;
+    
+}
+
 .container{
     max-width: 1370px;
     width: 100%;
