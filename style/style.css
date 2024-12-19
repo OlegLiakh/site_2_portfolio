@@ -114,6 +114,225 @@ body{
     cursor: pointer;
 }
 
+.maincontainer{
+    max-width: 1370px;
+    width: 100%;
+    margin: 169px auto;
+    padding: 0 15px;
+}
+
+.twocolumns{
+    width: 1413px;
+}
+
+p{
+    display: block;
+    font-size: 25px;
+    margin: 0;
+}
+
+.twocolumns h1{
+    display: inline-flex;
+    position: absolute;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #01996D;
+    margin-top: 0;
+    padding: 0;
+}
+
+.twocolumns p{
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    font-weight: medium;
+    margin: 35px 0 0 706px;
+    padding-top: 15px;
+}
+
+
+.firstcolumn{
+    width: 390px;
+    height: 937px;
+    display: flex;
+    
+}
+
+.firstcolumn .numbers{
+    font-size: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 20%;
+    color: #01996D;
+    position: absolute;
+    margin-top: 92px;
+    display: flex;
+}
+
+.firstcolumn h3{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: relative;
+    margin: 200px 0 0 95px;
+}
+
+.firstcolumn p{
+    font-size: 20px;
+    font-family: 'lato', serif;
+    position: absolute;
+    margin: 250px 0 0 0;
+    display: flex;
+    
+}
+
+.firstcolumn img{
+    width: 390px;
+    height: 492px;
+    border-radius: 12px;
+    position: absolute;
+    margin-top: 450px;
+
+}
+
+.secondcol{
+    width: 390px;
+    height: 937px;
+    display: flex;
+    margin: -720px 0 0 500px;
+    position: relative;
+}
+
+.secondcol .numbers{
+    font-size: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 20%;
+    color: #01996D;
+    position: absolute;
+    margin-top: 92px;
+    display: flex;
+}
+
+.secondcol h3{
+    font-size: 29px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: relative;
+    margin: 205px 0 0 80px;
+}
+
+.secondcol p{
+    font-size: 20px;
+    font-family: 'lato', serif;
+    position: absolute;
+    margin: 250px 0 0 0;
+    display: flex;
+}
+
+
+.secondcol img{
+        width: 390px;
+        height: 492px;
+        border-radius: 12px;
+        position: absolute;
+        margin-top: 400px;
+       
+}
+
+
+.trdcol{
+    width: 390px;
+    height: 937px;
+    display: flex;
+    margin: -1140px 0 0 1000px;
+    position: relative;
+}
+
+.trdcol .numbers{
+    font-size: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 20%;
+    color: #01996D;
+    position: absolute;
+    margin-top: 92px;
+    display: flex;
+}
+
+.trdcol h3{
+    font-size: 29px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: relative;
+    margin: 205px 0 0 130px;
+}
+
+.trdcol p{
+    font-size: 20px;
+    font-family: 'lato', serif;
+    position: absolute;
+    margin: 250px 0 0 0;
+    display: flex
+}
+
+.trdcol img{
+    width: 390px;
+    height: 492px;
+    border-radius: 12px;
+    position: absolute;
+    margin-top: 400px;
+}
+
+.video{
+    background-color: #245852;
+    padding: 95px 0 144px 0;
+    width: 1920px;
+    height: 922px;
+}
+
+.video h2{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #fff;
+    display: inline-flex;
+    position: relative;
+    margin-top: 310px;
+}
+
+.video p{
+    font-family: 'lato';
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    position: relative;
+}
+
+.video button{
+    width: 240px;
+    height: 65px;
+    border: none;
+    border-radius: 4px;
+    background-color: #01996D;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'lato';
+    cursor: pointer;
+    margin-top: 57px;
+    
+    
+}
+
+.video img{
+    width: 896px;
+    height: 516px;
+    border-radius: 12px;
+    position: absolute;
+    margin: 0 0 1500px 600px;
+   
+}
+
+
 .footer{
     background-color: #245852;
     padding: 95px 0 144px 0;
@@ -148,3 +367,11 @@ footer ul{
     font-size: 25px;
     text-decoration: none;
 }
+
+.footer  {
+    max-width: 1990px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
