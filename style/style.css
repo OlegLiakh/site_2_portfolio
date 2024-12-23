@@ -287,6 +287,7 @@ p{
     padding: 95px 0 144px 0;
     width: 1920px;
     height: 922px;
+    display: relative;
 }
 
 .video h2{
@@ -294,9 +295,9 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     color: #fff;
-    display: inline-flex;
-    position: relative;
-    margin-top: 310px;
+    margin-top: 150px;
+    padding-top: 120px;
+    display: flex;
 }
 
 .video p{
@@ -323,14 +324,111 @@ p{
     
 }
 
-.video img{
+.vimage{
     width: 896px;
     height: 516px;
     border-radius: 12px;
+    margin-left: 650px;
+    margin-top: 0;
+    display: flex;
     position: absolute;
-    margin: 0 0 1500px 600px;
-   
+    cursor: pointer;
 }
+
+
+.last{
+    width: 1920px;
+    height: 936px;
+
+}
+
+.last .one{
+    width: 639px;
+    height: 573px;
+    border-radius: 18px;
+    margin: 120px 945px 0 125px;
+    display: flex;
+    position: absolute;
+
+}
+
+.last h6{
+    font-size: 25px;
+    font-family: 'lato';
+    }
+
+.last h2{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #01996D;
+
+}
+
+.last p{
+    font-size: 20px;
+    font-family: 'lato';
+
+}
+
+.last button{
+    width: 240px;
+    height: 65px;
+    border: none;
+    border-radius: 4px;
+    background-color: #01996D;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'lato';
+    cursor: pointer;
+    margin-top: 40px;
+    
+}
+
+.text{
+    position: absolute;
+    margin: 120px 0 0 880px;
+    
+}
+
+.pic{
+    width: 296px;
+    height: 294px;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    margin: 480px 0 0 60px;
+    box-shadow: 0px 0px 1px 0px grey;
+}
+
+.flexcontainer{
+    text-align: center;
+    padding: 25px;
+}
+
+.flexcontainer p{
+    font-size: 15px;
+    font-family: 'lato';
+}
+
+.flexcontainer hr{
+    width: 110px;
+}
+
+.flexcontainer h3{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.flexcontainer li{
+    font-size: 10px;
+    font-family: 'lato';
+    text-align: left;
+    margin-left: 5px;
+    padding: 15px;
+}
+
 
 
 .footer{
@@ -338,10 +436,17 @@ p{
     padding: 95px 0 144px 0;
     width: 1920px;
     height: 654px;
+    margin-top: 35px;
+    
 }
 
 .footer img{
     margin-bottom: 60px;
+    
+}
+
+.logo{
+    margin-top: 130px;
 }
 
 footer ul{
