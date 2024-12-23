@@ -81,7 +81,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-left: 0;
+    max-width: 1370px;
         
 }
 
