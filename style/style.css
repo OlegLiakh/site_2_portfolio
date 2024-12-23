@@ -82,6 +82,9 @@ body{
     background-position: center;
     
 }
+.header img{
+    position: absolute;
+}
 
 .header h1{
     font-size: 65px;
