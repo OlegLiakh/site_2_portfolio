@@ -75,7 +75,8 @@ body{
     padding: 0 15px;
 }
 
-.header .container img{
+.header{
+    background-image: (./img/header.png);
     min-height: 895px;
     background-repeat: no-repeat;
     background-size: cover;
