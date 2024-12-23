@@ -77,7 +77,6 @@ body{
 
 .header{
     min-height: 895px;
-    background-image: url(/img/header.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
